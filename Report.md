@@ -8,14 +8,14 @@ Team Number:
 
 1. Why does your program need a setup and a loop?
 
-    Setup is used to initalize pins as inputs or outputs and other microcontroller initialization tasks necesssary for execution and this is run once. Whenever power is 
+    Setup is used to initalize pins as inputs or outputs and perform other microcontroller initialization tasks necesssary for execution and this is run once. Whenever power is 
 	provided to a microcontroller, the controller continously executes instructions and thus a loop is needed to constrain execution in a controlled repetitive fashion.
-	In our program we used the loop to indefinetly turn on and off the LED.
+	In our program we used the setup to initialize an output pin and loop to indefinetly turn on and off the LED.
 
 2. What is the downside to putting all your code in a loop?
 
     This is inefficent as instructions that need only be run once such as GPIO initialization will be repeated in each loop cycle which is a waste of processor usage
-	and power and time is lose on memory accesses.
+	and power and time is lost on memory accesses. Not efficent.
 
 3. Why does your code need to be compiled?
 
