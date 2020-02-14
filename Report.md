@@ -8,7 +8,7 @@ Team Number:
 
 1. Why does your program need a setup and a loop?
 
-    Setup is used to initalize pins as inputs or outputs and perform other microcontroller initialization tasks necesssary for execution and this is run once. Whenever power is 
+    Setup is used to initalize pins as inputs or outputs and perform other microcontroller initialization tasks necesssary for execution and this is run once upon reset. Whenever power is 
 	provided to a microcontroller, the controller continously executes instructions and thus a loop is needed to constrain execution in a controlled repetitive fashion.
 	In our program we used the setup to initialize an output pin and loop to indefinetly turn on and off the LED.
 
@@ -70,13 +70,13 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/blinkImg.png)
+![Put path to your image here ->](img/blinkImg.PNG)
 
 Procedure A, step 4:
-![Put path to your image here ->](img/dimmerImg.png)
+![Put path to your image here ->](img/dimmerImg.PNG)
 
 Procedure B, UART:
-![Put path to your image here ->](img/UARTImg.png)
+![Put path to your image here ->](img/UARTImg.PNG)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/SPIImg.png)
+![Put path to your image here ->](img/SPIImg.PNG)
